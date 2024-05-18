@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- -->
+  <body
+    class="flex h-screen w-screen items-center justify-center p-5 align-middle"
+  >
+    <!-- main card -->
+    <main
+      class="md: flex flex-col gap-2 overflow-hidden rounded-xl shadow-md shadow-red-800 md:flex md:h-3/6 md:w-2/6 md:flex-row md:justify-center"
+    >
+      <!-- image section -->
+      <section class="w-full md:h-full md:w-2/6 md:object-cover">
+        <img
+          class="w-full md:h-full md:object-cover"
+          src="../images/image-product-mobile.jpg"
+          alt=""
+        />
+      </section>
+
+      <!-- text section -->
+      <section
+        class="flex flex-col gap-7 px-8 py-3 md:h-full md:w-2/6 md:shrink md:gap-0 md:p-0"
+      >
+        <div class="flex flex-col gap-3">
+          <p class="font-inter text-lg tracking-widest text-gray-600">
+            PERFUME
+          </p>
+          <h1 class="font-sche text-5xl font-black">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+
+          <p class="font-inter text-xl text-gray-600">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <div class="flex flex-row place-items-center items-center gap-3">
+            <p class="font-sche text-4xl font-extrabold text-green-700">
+              $149.99
+            </p>
+            <p class="text-gray-500"><s>$169.99</s></p>
+          </div>
+
+          <button class="w-full rounded-lg bg-green-700 py-3 text-white">
+            <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
